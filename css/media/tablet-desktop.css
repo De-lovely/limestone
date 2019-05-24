@@ -1,0 +1,99 @@
+@media (min-width: 981px) {
+  .container {
+    max-width: 1200px;
+  }
+  header {
+    height: 64px;
+    max-width: 1920px;
+  }
+  header #mainmenu {
+    height: 64px;
+  }
+  header #mainmenu ul a {
+    height: 64px;
+    font-size: 24px;
+    padding: 0 26px;
+  }
+  .wrapper {
+    background: url('../../img/main-bg.jpg') top center no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: table;
+    padding-top: 64px;
+  }
+  .right {
+    width: 50%;
+    float: right;
+  }
+  .contact-form {
+    padding: 36px 45px 45px 45px;
+    position: relative;
+    width: 455px;
+    margin: 110px auto 140px auto;
+  }
+  .contact-form:before {
+    top: 41px;
+    left: -16px;
+  }
+  .contact-form.sent {
+    width: 375px;
+  }
+  .contact-form h3 {
+    font-size: 29px;
+    line-height: 30px;
+  }
+  .contact-form label {
+    font-size: 15px;
+  }
+  .contact-form input {
+    height: 25px;
+  }
+  .contact-form textarea {
+    max-width: 365px;
+  }
+  .getInTouch {
+    padding: 100px 10px;
+  }
+  .getInTouch h3 {
+    margin-bottom: 35px;
+  }
+  .getInTouch .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .getInTouch .address {
+    padding-left: 115px;
+  }
+  .getInTouch .address:before {
+    bottom: 0;
+    left: 0;
+  }
+  .getInTouch .cities li {
+    float: left;
+    margin-right: 25px;
+  }
+  .getInTouch .cities li:last-child {
+    margin-right: 0;
+  }
+  footer {
+    padding: 40px 0;
+  }
+  .foot-menu {
+    margin-bottom: 20px;
+  }
+  .foot-menu ul {
+    display: table;
+    margin: 0 auto;
+  }
+  .foot-menu li {
+    padding-right: 30px;
+  }
+  .foot-menu li:last-child {
+    padding-right: 0;
+  }
+  .foot-menu li a {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

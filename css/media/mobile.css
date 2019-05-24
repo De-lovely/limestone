@@ -1,0 +1,103 @@
+@media (max-width: 980px) {
+  header {
+    height: 55px;
+  }
+  header #mainmenu {
+    height: 55px;
+  }
+  header #mainmenu ul a {
+    height: 55px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0 15px;
+  }
+  .wrapper {
+    padding-top: 55px;
+    margin-bottom: -40px;
+  }
+  .wrapper:before {
+    content: "";
+    display: block;
+    width: 100%;
+    background: url('../../img/main-bg-mob.jpg') top left no-repeat;
+    background-size: cover;
+    min-height: 450px;
+    margin-bottom: -40px;
+  }
+  .contact-form {
+    padding: 25px 22px 50px 22px;
+  }
+  .contact-form:before {
+    right: 65px;
+    top: -16px;
+  }
+  .contact-form h3 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .contact-form label {
+    font-size: 16px;
+  }
+  .contact-form input {
+    height: 31px;
+  }
+  .getInTouch {
+    position: relative;
+    z-index: 0;
+    padding: 150px 15px 60px 15px;
+  }
+  .getInTouch h3 {
+    margin-bottom: 20px;
+  }
+  .getInTouch .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .getInTouch .contacts {
+    margin-bottom: 25px;
+    align-self: center;
+  }
+  .getInTouch .address {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-top: 130px;
+  }
+  .getInTouch .address:before {
+    top: 0;
+    transform: translate(-50%, 0%);
+    left: 50%;
+  }
+  .getInTouch .cities {
+    width: 100%;
+  }
+  .getInTouch .cities ul {
+    flex-wrap: wrap;
+  }
+  .getInTouch .cities ul li {
+    width: 50%;
+    float: left;
+    font-weight: 700;
+  }
+  .getInTouch .cities ul li:first-child,
+  .getInTouch .cities ul li:nth-child(2) {
+    margin-bottom: 25px;
+  }
+  footer {
+    padding: 30px 20px;
+  }
+  .foot-menu {
+    max-width: 400px;
+    display: table;
+    margin: 0 auto 20px auto;
+  }
+  .foot-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .foot-menu li a {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
